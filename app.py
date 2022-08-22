@@ -35,8 +35,8 @@ def main():
     vh = st.file_uploader(label="EEG")
     cp = st.file_uploader(label="Stimulation")
 
-    # if not st.button("Нажми меня") or vh is None or cp is None:
-    # return
+    if not st.button("Нажми меня") or vh is None or cp is None:
+        return
     # In[2]:
 
     # try:
@@ -78,7 +78,6 @@ def main():
 
     # In[7]:
 
-
     tss = []
     for pick_item in ["ayo"] + sorted(set(df["img"].tolist())):
         print(pick_item)
@@ -86,15 +85,15 @@ def main():
         for k in ("n", "y"):
             print(k)
             events = [pytz.UTC.localize(datetime.datetime.strptime(x + "000", "%Y-%m-%d_%Hh%M.%S.%f"))
-                    + datetime.timedelta(seconds=float(y))
-                    for _, x, y in (df
-                                    #                               [df["key_resp.keys"] == k]
-                                    [(df["img"] == pick_item if k ==
+                      + datetime.timedelta(seconds=float(y))
+                      for _, x, y in (df
+                                      #                               [df["key_resp.keys"] == k]
+                                      [(df["img"] == pick_item if k ==
                                         "y" else df["img"] != pick_item)]
-                                    [["date", "image.started"]].itertuples())
-                    if isinstance(x, str) and ("nan" not in str(y).lower())]
+                                      [["date", "image.started"]].itertuples())
+                      if isinstance(x, str) and ("nan" not in str(y).lower())]
             events = [(min(len(datetimes) - 1, bisect.bisect_left(datetimes, e)
-                        ), 0, i) for i, e in enumerate(events)]
+                           ), 0, i) for i, e in enumerate(events)]
             if not events:
                 continue
             d = data.copy()  # .filter(1, 4)   # .filter(0, 50)  #  .filter(1, 300)
@@ -102,10 +101,10 @@ def main():
             d = d.drop_channels(
                 [d.ch_names[(d.get_data() ** 2).mean(axis=-1).mean(axis=0).argmax()]])
             epoched = mne.Epochs(d,
-                                events,
-                                reject=dict(eeg=1e-4),
-                                tmin=-0.1, tmax=0.5
-                                )
+                                 events,
+                                 reject=dict(eeg=1e-4),
+                                 tmin=-0.1, tmax=0.5
+                                 )
     #         mne.viz.plot_epochs(epoched)
             e = epoched.load_data().pick_channels("Oz".split())
     #         keep = []
@@ -123,7 +122,8 @@ def main():
     #         print(e.drop_bad())
     #     break
         if len(ts) == 2:
-            tss.append((pick_item, (ts[1]._data - ts[0]._data).T, ts[1].ch_names))
+            tss.append(
+                (pick_item, (ts[1]._data - ts[0]._data).T, ts[1].ch_names))
 
         # In[9]:
 
