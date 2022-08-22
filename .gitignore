@@ -1,0 +1,14 @@
+P*
+sa*
+.ipynb_checkpoints/
+**/__pycache__/
+*run.py
+**/*.html
+**/*.js
+data/
+lib/
+ffhq/
+data/*
+data/*.csv
+data/*.psydat
+data/*.log

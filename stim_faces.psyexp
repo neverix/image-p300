@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2022.2.3">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="{'participant':'f&quot;{randint(0, 999999):06.0f}&quot;', 'session':'001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="stim_faces" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="MIDDLE_BUTTON" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+  </Settings>
+  <Routines>
+    <Routine name="hi">
+      <TextComponent name="text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Hi!&amp;#10;&amp;#10;Rate images with y/n on the keyboard as quickly as possible. This will provide data for the EEG!" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param val="'y','n','left','right','space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="im">
+      <KeyboardComponent name="key_resp">
+        <Param val="'y','n'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <ImageComponent name="image">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$img" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="gn">
+      <TextComponent name="text_3">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Thanks for the data" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3">
+        <Param val="'y','n','left','right','space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_3" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="hi"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('img', 'ffhq/69806.jpg')]), OrderedDict([('img', 'ffhq/69812.jpg')]), OrderedDict([('img', 'ffhq/69621.jpg')]), OrderedDict([('img', 'ffhq/69635.jpg')]), OrderedDict([('img', 'ffhq/69609.jpg')]), OrderedDict([('img', 'ffhq/69423.jpg')]), OrderedDict([('img', 'ffhq/69437.jpg')]), OrderedDict([('img', 'ffhq/69594.jpg')]), OrderedDict([('img', 'ffhq/69580.jpg')]), OrderedDict([('img', 'ffhq/69557.jpg')]), OrderedDict([('img', 'ffhq/69543.jpg')]), OrderedDict([('img', 'ffhq/69796.jpg')]), OrderedDict([('img', 'ffhq/69782.jpg')]), OrderedDict([('img', 'ffhq/69972.jpg')]), OrderedDict([('img', 'ffhq/69966.jpg')]), OrderedDict([('img', 'ffhq/69755.jpg')]), OrderedDict([('img', 'ffhq/69741.jpg')]), OrderedDict([('img', 'ffhq/69999.jpg')]), OrderedDict([('img', 'ffhq/69769.jpg')]), OrderedDict([('img', 'ffhq/69768.jpg')]), OrderedDict([('img', 'ffhq/69998.jpg')]), OrderedDict([('img', 'ffhq/69740.jpg')]), OrderedDict([('img', 'ffhq/69754.jpg')]), OrderedDict([('img', 'ffhq/69967.jpg')]), OrderedDict([('img', 'ffhq/69973.jpg')]), OrderedDict([('img', 'ffhq/69783.jpg')]), OrderedDict([('img', 'ffhq/69797.jpg')]), OrderedDict([('img', 'ffhq/69542.jpg')]), OrderedDict([('img', 'ffhq/69556.jpg')]), OrderedDict([('img', 'ffhq/69581.jpg')]), OrderedDict([('img', 'ffhq/69595.jpg')]), OrderedDict([('img', 'ffhq/69436.jpg')]), OrderedDict([('img', 'ffhq/69422.jpg')]), OrderedDict([('img', 'ffhq/69608.jpg')]), OrderedDict([('img', 'ffhq/69634.jpg')]), OrderedDict([('img', 'ffhq/69620.jpg')]), OrderedDict([('img', 'ffhq/69813.jpg')]), OrderedDict([('img', 'ffhq/69807.jpg')]), OrderedDict([('img', 'ffhq/69839.jpg')]), OrderedDict([('img', 'ffhq/69811.jpg')]), OrderedDict([('img', 'ffhq/69805.jpg')]), OrderedDict([('img', 'ffhq/69636.jpg')]), OrderedDict([('img', 'ffhq/69622.jpg')]), OrderedDict([('img', 'ffhq/69434.jpg')]), OrderedDict([('img', 'ffhq/69420.jpg')]), OrderedDict([('img', 'ffhq/69408.jpg')]), OrderedDict([('img', 'ffhq/69583.jpg')]), OrderedDict([('img', 'ffhq/69597.jpg')]), OrderedDict([('img', 'ffhq/69540.jpg')]), OrderedDict([('img', 'ffhq/69554.jpg')]), OrderedDict([('img', 'ffhq/69568.jpg')]), OrderedDict([('img', 'ffhq/69959.jpg')]), OrderedDict([('img', 'ffhq/69781.jpg')]), OrderedDict([('img', 'ffhq/69795.jpg')]), OrderedDict([('img', 'ffhq/69965.jpg')]), OrderedDict([('img', 'ffhq/69971.jpg')]), OrderedDict([('img', 'ffhq/69742.jpg')]), OrderedDict([('img', 'ffhq/69756.jpg')]), OrderedDict([('img', 'ffhq/69757.jpg')]), OrderedDict([('img', 'ffhq/69743.jpg')]), OrderedDict([('img', 'ffhq/69970.jpg')]), OrderedDict([('img', 'ffhq/69964.jpg')]), OrderedDict([('img', 'ffhq/69794.jpg')]), OrderedDict([('img', 'ffhq/69780.jpg')]), OrderedDict([('img', 'ffhq/69958.jpg')]), OrderedDict([('img', 'ffhq/69569.jpg')]), OrderedDict([('img', 'ffhq/69555.jpg')]), OrderedDict([('img', 'ffhq/69541.jpg')]), OrderedDict([('img', 'ffhq/69596.jpg')]), OrderedDict([('img', 'ffhq/69582.jpg')]), OrderedDict([('img', 'ffhq/69409.jpg')]), OrderedDict([('img', 'ffhq/69421.jpg')]), OrderedDict([('img', 'ffhq/69435.jpg')]), OrderedDict([('img', 'ffhq/69623.jpg')]), OrderedDict([('img', 'ffhq/69637.jpg')]), OrderedDict([('img', 'ffhq/69804.jpg')]), OrderedDict([('img', 'ffhq/69810.jpg')]), OrderedDict([('img', 'ffhq/69838.jpg')]), OrderedDict([('img', 'ffhq/69814.jpg')]), OrderedDict([('img', 'ffhq/69800.jpg')]), OrderedDict([('img', 'ffhq/69828.jpg')]), OrderedDict([('img', 'ffhq/69633.jpg')]), OrderedDict([('img', 'ffhq/69627.jpg')]), OrderedDict([('img', 'ffhq/69419.jpg')]), OrderedDict([('img', 'ffhq/69431.jpg')]), OrderedDict([('img', 'ffhq/69425.jpg')]), OrderedDict([('img', 'ffhq/69586.jpg')]), OrderedDict([('img', 'ffhq/69592.jpg')]), OrderedDict([('img', 'ffhq/69579.jpg')]), OrderedDict([('img', 'ffhq/69545.jpg')]), OrderedDict([('img', 'ffhq/69551.jpg')]), OrderedDict([('img', 'ffhq/69960.jpg')]), OrderedDict([('img', 'ffhq/69974.jpg')]), OrderedDict([('img', 'ffhq/69784.jpg')]), OrderedDict([('img', 'ffhq/69948.jpg')]), OrderedDict([('img', 'ffhq/69790.jpg')]), OrderedDict([('img', 'ffhq/69747.jpg')]), OrderedDict([('img', 'ffhq/69753.jpg')]), OrderedDict([('img', 'ffhq/69752.jpg')]), OrderedDict([('img', 'ffhq/69746.jpg')]), OrderedDict([('img', 'ffhq/69791.jpg')]), OrderedDict([('img', 'ffhq/69949.jpg')]), OrderedDict([('img', 'ffhq/69785.jpg')]), OrderedDict([('img', 'ffhq/69975.jpg')]), OrderedDict([('img', 'ffhq/69961.jpg')]), OrderedDict([('img', 'ffhq/69550.jpg')]), OrderedDict([('img', 'ffhq/69544.jpg')]), OrderedDict([('img', 'ffhq/69578.jpg')]), OrderedDict([('img', 'ffhq/69593.jpg')]), OrderedDict([('img', 'ffhq/69587.jpg')]), OrderedDict([('img', 'ffhq/69424.jpg')]), OrderedDict([('img', 'ffhq/69430.jpg')]), OrderedDict([('img', 'ffhq/69418.jpg')]), OrderedDict([('img', 'ffhq/69626.jpg')]), OrderedDict([('img', 'ffhq/69632.jpg')]), OrderedDict([('img', 'ffhq/69829.jpg')]), OrderedDict([('img', 'ffhq/69801.jpg')]), OrderedDict([('img', 'ffhq/69815.jpg')]), OrderedDict([('img', 'ffhq/69803.jpg')]), OrderedDict([('img', 'ffhq/69817.jpg')]), OrderedDict([('img', 'ffhq/69618.jpg')]), OrderedDict([('img', 'ffhq/69624.jpg')]), OrderedDict([('img', 'ffhq/69630.jpg')]), OrderedDict([('img', 'ffhq/69426.jpg')]), OrderedDict([('img', 'ffhq/69432.jpg')]), OrderedDict([('img', 'ffhq/69591.jpg')]), OrderedDict([('img', 'ffhq/69585.jpg')]), OrderedDict([('img', 'ffhq/69552.jpg')]), OrderedDict([('img', 'ffhq/69546.jpg')]), OrderedDict([('img', 'ffhq/69977.jpg')]), OrderedDict([('img', 'ffhq/69963.jpg')]), OrderedDict([('img', 'ffhq/69793.jpg')]), OrderedDict([('img', 'ffhq/69787.jpg')]), OrderedDict([('img', 'ffhq/69778.jpg')]), OrderedDict([('img', 'ffhq/69750.jpg')]), OrderedDict([('img', 'ffhq/69988.jpg')]), OrderedDict([('img', 'ffhq/69744.jpg')]), OrderedDict([('img', 'ffhq/69745.jpg')]), OrderedDict([('img', 'ffhq/69989.jpg')]), OrderedDict([('img', 'ffhq/69751.jpg')]), OrderedDict([('img', 'ffhq/69779.jpg')]), OrderedDict([('img', 'ffhq/69786.jpg')]), OrderedDict([('img', 'ffhq/69792.jpg')]), OrderedDict([('img', 'ffhq/69962.jpg')]), OrderedDict([('img', 'ffhq/69976.jpg')]), OrderedDict([('img', 'ffhq/69547.jpg')]), OrderedDict([('img', 'ffhq/69553.jpg')]), OrderedDict([('img', 'ffhq/69584.jpg')]), OrderedDict([('img', 'ffhq/69590.jpg')]), OrderedDict([('img', 'ffhq/69433.jpg')]), OrderedDict([('img', 'ffhq/69427.jpg')]), OrderedDict([('img', 'ffhq/69631.jpg')]), OrderedDict([('img', 'ffhq/69625.jpg')]), OrderedDict([('img', 'ffhq/69619.jpg')]), OrderedDict([('img', 'ffhq/69816.jpg')]), OrderedDict([('img', 'ffhq/69802.jpg')]), OrderedDict([('img', 'ffhq/69681.jpg')]), OrderedDict([('img', 'ffhq/69859.jpg')]), OrderedDict([('img', 'ffhq/69695.jpg')]), OrderedDict([('img', 'ffhq/69865.jpg')]), OrderedDict([('img', 'ffhq/69871.jpg')]), OrderedDict([('img', 'ffhq/69642.jpg')]), OrderedDict([('img', 'ffhq/69656.jpg')]), OrderedDict([('img', 'ffhq/69483.jpg')]), OrderedDict([('img', 'ffhq/69497.jpg')]), OrderedDict([('img', 'ffhq/69440.jpg')]), OrderedDict([('img', 'ffhq/69454.jpg')]), OrderedDict([('img', 'ffhq/69468.jpg')]), OrderedDict([('img', 'ffhq/69534.jpg')]), OrderedDict([('img', 'ffhq/69520.jpg')]), OrderedDict([('img', 'ffhq/69508.jpg')]), OrderedDict([('img', 'ffhq/69939.jpg')]), OrderedDict([('img', 'ffhq/69911.jpg')]), OrderedDict([('img', 'ffhq/69905.jpg')]), OrderedDict([('img', 'ffhq/69736.jpg')]), OrderedDict([('img', 'ffhq/69722.jpg')]), OrderedDict([('img', 'ffhq/69723.jpg')]), OrderedDict([('img', 'ffhq/69737.jpg')]), OrderedDict([('img', 'ffhq/69904.jpg')]), OrderedDict([('img', 'ffhq/69910.jpg')]), OrderedDict([('img', 'ffhq/69938.jpg')]), OrderedDict([('img', 'ffhq/69509.jpg')]), OrderedDict([('img', 'ffhq/69521.jpg')]), OrderedDict([('img', 'ffhq/69535.jpg')]), OrderedDict([('img', 'ffhq/69469.jpg')]), OrderedDict([('img', 'ffhq/69455.jpg')]), OrderedDict([('img', 'ffhq/69441.jpg')]), OrderedDict([('img', 'ffhq/69496.jpg')]), OrderedDict([('img', 'ffhq/69482.jpg')]), OrderedDict([('img', 'ffhq/69657.jpg')]), OrderedDict([('img', 'ffhq/69643.jpg')]), OrderedDict([('img', 'ffhq/69870.jpg')]), OrderedDict([('img', 'ffhq/69864.jpg')]), OrderedDict([('img', 'ffhq/69694.jpg')]), OrderedDict([('img', 'ffhq/69858.jpg')]), OrderedDict([('img', 'ffhq/69680.jpg')]), OrderedDict([('img', 'ffhq/69696.jpg')]), OrderedDict([('img', 'ffhq/69682.jpg')]), OrderedDict([('img', 'ffhq/69872.jpg')]), OrderedDict([('img', 'ffhq/69866.jpg')]), OrderedDict([('img', 'ffhq/69655.jpg')]), OrderedDict([('img', 'ffhq/69899.jpg')]), OrderedDict([('img', 'ffhq/69641.jpg')]), OrderedDict([('img', 'ffhq/69669.jpg')]), OrderedDict([('img', 'ffhq/69494.jpg')]), OrderedDict([('img', 'ffhq/69480.jpg')]), OrderedDict([('img', 'ffhq/69457.jpg')]), OrderedDict([('img', 'ffhq/69443.jpg')]), OrderedDict([('img', 'ffhq/69523.jpg')]), OrderedDict([('img', 'ffhq/69537.jpg')]), OrderedDict([('img', 'ffhq/69906.jpg')]), OrderedDict([('img', 'ffhq/69912.jpg')]), OrderedDict([('img', 'ffhq/69721.jpg')]), OrderedDict([('img', 'ffhq/69735.jpg')]), OrderedDict([('img', 'ffhq/69709.jpg')]), OrderedDict([('img', 'ffhq/69708.jpg')]), OrderedDict([('img', 'ffhq/69734.jpg')]), OrderedDict([('img', 'ffhq/69720.jpg')]), OrderedDict([('img', 'ffhq/69913.jpg')]), OrderedDict([('img', 'ffhq/69907.jpg')]), OrderedDict([('img', 'ffhq/69536.jpg')]), OrderedDict([('img', 'ffhq/69522.jpg')]), OrderedDict([('img', 'ffhq/69442.jpg')]), OrderedDict([('img', 'ffhq/69456.jpg')]), OrderedDict([('img', 'ffhq/69481.jpg')]), OrderedDict([('img', 'ffhq/69495.jpg')]), OrderedDict([('img', 'ffhq/69668.jpg')]), OrderedDict([('img', 'ffhq/69640.jpg')]), OrderedDict([('img', 'ffhq/69898.jpg')]), OrderedDict([('img', 'ffhq/69654.jpg')]), OrderedDict([('img', 'ffhq/69867.jpg')]), OrderedDict([('img', 'ffhq/69873.jpg')]), OrderedDict([('img', 'ffhq/69683.jpg')]), OrderedDict([('img', 'ffhq/69697.jpg')]), OrderedDict([('img', 'ffhq/69877.jpg')]), OrderedDict([('img', 'ffhq/69863.jpg')]), OrderedDict([('img', 'ffhq/69693.jpg')]), OrderedDict([('img', 'ffhq/69687.jpg')]), OrderedDict([('img', 'ffhq/69678.jpg')]), OrderedDict([('img', 'ffhq/69888.jpg')]), OrderedDict([('img', 'ffhq/69650.jpg')]), OrderedDict([('img', 'ffhq/69644.jpg')]), OrderedDict([('img', 'ffhq/69491.jpg')]), OrderedDict([('img', 'ffhq/69485.jpg')]), OrderedDict([('img', 'ffhq/69452.jpg')]), OrderedDict([('img', 'ffhq/69446.jpg')]), OrderedDict([('img', 'ffhq/69526.jpg')]), OrderedDict([('img', 'ffhq/69532.jpg')]), OrderedDict([('img', 'ffhq/69903.jpg')]), OrderedDict([('img', 'ffhq/69917.jpg')]), OrderedDict([('img', 'ffhq/69718.jpg')]), OrderedDict([('img', 'ffhq/69724.jpg')]), OrderedDict([('img', 'ffhq/69730.jpg')]), OrderedDict([('img', 'ffhq/69731.jpg')]), OrderedDict([('img', 'ffhq/69725.jpg')]), OrderedDict([('img', 'ffhq/69719.jpg')]), OrderedDict([('img', 'ffhq/69916.jpg')]), OrderedDict([('img', 'ffhq/69902.jpg')]), OrderedDict([('img', 'ffhq/69533.jpg')]), OrderedDict([('img', 'ffhq/69527.jpg')]), OrderedDict([('img', 'ffhq/69447.jpg')]), OrderedDict([('img', 'ffhq/69453.jpg')]), OrderedDict([('img', 'ffhq/69484.jpg')]), OrderedDict([('img', 'ffhq/69490.jpg')]), OrderedDict([('img', 'ffhq/69645.jpg')]), OrderedDict([('img', 'ffhq/69651.jpg')]), OrderedDict([('img', 'ffhq/69889.jpg')]), OrderedDict([('img', 'ffhq/69679.jpg')]), OrderedDict([('img', 'ffhq/69686.jpg')]), OrderedDict([('img', 'ffhq/69692.jpg')]), OrderedDict([('img', 'ffhq/69862.jpg')]), OrderedDict([('img', 'ffhq/69876.jpg')]), OrderedDict([('img', 'ffhq/69860.jpg')]), OrderedDict([('img', 'ffhq/69874.jpg')]), OrderedDict([('img', 'ffhq/69684.jpg')]), OrderedDict([('img', 'ffhq/69690.jpg')]), OrderedDict([('img', 'ffhq/69848.jpg')]), OrderedDict([('img', 'ffhq/69647.jpg')]), OrderedDict([('img', 'ffhq/69653.jpg')]), OrderedDict([('img', 'ffhq/69486.jpg')]), OrderedDict([('img', 'ffhq/69492.jpg')]), OrderedDict([('img', 'ffhq/69479.jpg')]), OrderedDict([('img', 'ffhq/69445.jpg')]), OrderedDict([('img', 'ffhq/69451.jpg')]), OrderedDict([('img', 'ffhq/69519.jpg')]), OrderedDict([('img', 'ffhq/69531.jpg')]), OrderedDict([('img', 'ffhq/69525.jpg')]), OrderedDict([('img', 'ffhq/69914.jpg')]), OrderedDict([('img', 'ffhq/69900.jpg')]), OrderedDict([('img', 'ffhq/69928.jpg')]), OrderedDict([('img', 'ffhq/69733.jpg')]), OrderedDict([('img', 'ffhq/69727.jpg')]), OrderedDict([('img', 'ffhq/69726.jpg')]), OrderedDict([('img', 'ffhq/69732.jpg')]), OrderedDict([('img', 'ffhq/69929.jpg')]), OrderedDict([('img', 'ffhq/69901.jpg')]), OrderedDict([('img', 'ffhq/69915.jpg')]), OrderedDict([('img', 'ffhq/69524.jpg')]), OrderedDict([('img', 'ffhq/69530.jpg')]), OrderedDict([('img', 'ffhq/69518.jpg')]), OrderedDict([('img', 'ffhq/69450.jpg')]), OrderedDict([('img', 'ffhq/69444.jpg')]), OrderedDict([('img', 'ffhq/69478.jpg')]), OrderedDict([('img', 'ffhq/69493.jpg')]), OrderedDict([('img', 'ffhq/69487.jpg')]), OrderedDict([('img', 'ffhq/69652.jpg')]), OrderedDict([('img', 'ffhq/69646.jpg')]), OrderedDict([('img', 'ffhq/69849.jpg')]), OrderedDict([('img', 'ffhq/69691.jpg')]), OrderedDict([('img', 'ffhq/69685.jpg')]), OrderedDict([('img', 'ffhq/69875.jpg')]), OrderedDict([('img', 'ffhq/69861.jpg')]), OrderedDict([('img', 'ffhq/69878.jpg')]), OrderedDict([('img', 'ffhq/69844.jpg')]), OrderedDict([('img', 'ffhq/69688.jpg')]), OrderedDict([('img', 'ffhq/69850.jpg')]), OrderedDict([('img', 'ffhq/69663.jpg')]), OrderedDict([('img', 'ffhq/69677.jpg')]), OrderedDict([('img', 'ffhq/69887.jpg')]), OrderedDict([('img', 'ffhq/69893.jpg')]), OrderedDict([('img', 'ffhq/69461.jpg')]), OrderedDict([('img', 'ffhq/69475.jpg')]), OrderedDict([('img', 'ffhq/69449.jpg')]), OrderedDict([('img', 'ffhq/69515.jpg')]), OrderedDict([('img', 'ffhq/69501.jpg')]), OrderedDict([('img', 'ffhq/69529.jpg')]), OrderedDict([('img', 'ffhq/69918.jpg')]), OrderedDict([('img', 'ffhq/69930.jpg')]), OrderedDict([('img', 'ffhq/69924.jpg')]), OrderedDict([('img', 'ffhq/69717.jpg')]), OrderedDict([('img', 'ffhq/69703.jpg')]), OrderedDict([('img', 'ffhq/69702.jpg')]), OrderedDict([('img', 'ffhq/69716.jpg')]), OrderedDict([('img', 'ffhq/69925.jpg')]), OrderedDict([('img', 'ffhq/69931.jpg')]), OrderedDict([('img', 'ffhq/69919.jpg')]), OrderedDict([('img', 'ffhq/69528.jpg')]), OrderedDict([('img', 'ffhq/69500.jpg')]), OrderedDict([('img', 'ffhq/69514.jpg')]), OrderedDict([('img', 'ffhq/69448.jpg')]), OrderedDict([('img', 'ffhq/69474.jpg')]), OrderedDict([('img', 'ffhq/69460.jpg')]), OrderedDict([('img', 'ffhq/69892.jpg')]), OrderedDict([('img', 'ffhq/69886.jpg')]), OrderedDict([('img', 'ffhq/69676.jpg')]), OrderedDict([('img', 'ffhq/69662.jpg')]), OrderedDict([('img', 'ffhq/69851.jpg')]), OrderedDict([('img', 'ffhq/69689.jpg')]), OrderedDict([('img', 'ffhq/69845.jpg')]), OrderedDict([('img', 'ffhq/69879.jpg')]), OrderedDict([('img', 'ffhq/69853.jpg')]), OrderedDict([('img', 'ffhq/69847.jpg')]), OrderedDict([('img', 'ffhq/69674.jpg')]), OrderedDict([('img', 'ffhq/69660.jpg')]), OrderedDict([('img', 'ffhq/69890.jpg')]), OrderedDict([('img', 'ffhq/69648.jpg')]), OrderedDict([('img', 'ffhq/69884.jpg')]), OrderedDict([('img', 'ffhq/69489.jpg')]), OrderedDict([('img', 'ffhq/69476.jpg')]), OrderedDict([('img', 'ffhq/69462.jpg')]), OrderedDict([('img', 'ffhq/69502.jpg')]), OrderedDict([('img', 'ffhq/69516.jpg')]), OrderedDict([('img', 'ffhq/69927.jpg')]), OrderedDict([('img', 'ffhq/69933.jpg')]), OrderedDict([('img', 'ffhq/69700.jpg')]), OrderedDict([('img', 'ffhq/69714.jpg')]), OrderedDict([('img', 'ffhq/69728.jpg')]), OrderedDict([('img', 'ffhq/69729.jpg')]), OrderedDict([('img', 'ffhq/69715.jpg')]), OrderedDict([('img', 'ffhq/69701.jpg')]), OrderedDict([('img', 'ffhq/69932.jpg')]), OrderedDict([('img', 'ffhq/69926.jpg')]), OrderedDict([('img', 'ffhq/69517.jpg')]), OrderedDict([('img', 'ffhq/69503.jpg')]), OrderedDict([('img', 'ffhq/69463.jpg')]), OrderedDict([('img', 'ffhq/69477.jpg')]), OrderedDict([('img', 'ffhq/69488.jpg')]), OrderedDict([('img', 'ffhq/69885.jpg')]), OrderedDict([('img', 'ffhq/69649.jpg')]), OrderedDict([('img', 'ffhq/69891.jpg')]), OrderedDict([('img', 'ffhq/69661.jpg')]), OrderedDict([('img', 'ffhq/69675.jpg')]), OrderedDict([('img', 'ffhq/69846.jpg')]), OrderedDict([('img', 'ffhq/69852.jpg')]), OrderedDict([('img', 'ffhq/69856.jpg')]), OrderedDict([('img', 'ffhq/69842.jpg')]), OrderedDict([('img', 'ffhq/69895.jpg')]), OrderedDict([('img', 'ffhq/69881.jpg')]), OrderedDict([('img', 'ffhq/69659.jpg')]), OrderedDict([('img', 'ffhq/69671.jpg')]), OrderedDict([('img', 'ffhq/69665.jpg')]), OrderedDict([('img', 'ffhq/69498.jpg')]), OrderedDict([('img', 'ffhq/69473.jpg')]), OrderedDict([('img', 'ffhq/69467.jpg')]), OrderedDict([('img', 'ffhq/69507.jpg')]), OrderedDict([('img', 'ffhq/69513.jpg')]), OrderedDict([('img', 'ffhq/69922.jpg')]), OrderedDict([('img', 'ffhq/69936.jpg')]), OrderedDict([('img', 'ffhq/69739.jpg')]), OrderedDict([('img', 'ffhq/69705.jpg')]), OrderedDict([('img', 'ffhq/69711.jpg')]), OrderedDict([('img', 'ffhq/69710.jpg')]), OrderedDict([('img', 'ffhq/69704.jpg')]), OrderedDict([('img', 'ffhq/69738.jpg')]), OrderedDict([('img', 'ffhq/69937.jpg')]), OrderedDict([('img', 'ffhq/69923.jpg')]), OrderedDict([('img', 'ffhq/69512.jpg')]), OrderedDict([('img', 'ffhq/69506.jpg')]), OrderedDict([('img', 'ffhq/69466.jpg')]), OrderedDict([('img', 'ffhq/69472.jpg')]), OrderedDict([('img', 'ffhq/69499.jpg')]), OrderedDict([('img', 'ffhq/69664.jpg')]), OrderedDict([('img', 'ffhq/69670.jpg')]), OrderedDict([('img', 'ffhq/69658.jpg')]), OrderedDict([('img', 'ffhq/69880.jpg')]), OrderedDict([('img', 'ffhq/69894.jpg')]), OrderedDict([('img', 'ffhq/69843.jpg')]), OrderedDict([('img', 'ffhq/69857.jpg')]), OrderedDict([('img', 'ffhq/69699.jpg')]), OrderedDict([('img', 'ffhq/69841.jpg')]), OrderedDict([('img', 'ffhq/69855.jpg')]), OrderedDict([('img', 'ffhq/69869.jpg')]), OrderedDict([('img', 'ffhq/69882.jpg')]), OrderedDict([('img', 'ffhq/69896.jpg')]), OrderedDict([('img', 'ffhq/69666.jpg')]), OrderedDict([('img', 'ffhq/69672.jpg')]), OrderedDict([('img', 'ffhq/69458.jpg')]), OrderedDict([('img', 'ffhq/69464.jpg')]), OrderedDict([('img', 'ffhq/69470.jpg')]), OrderedDict([('img', 'ffhq/69538.jpg')]), OrderedDict([('img', 'ffhq/69510.jpg')]), OrderedDict([('img', 'ffhq/69504.jpg')]), OrderedDict([('img', 'ffhq/69935.jpg')]), OrderedDict([('img', 'ffhq/69921.jpg')]), OrderedDict([('img', 'ffhq/69909.jpg')]), OrderedDict([('img', 'ffhq/69712.jpg')]), OrderedDict([('img', 'ffhq/69706.jpg')]), OrderedDict([('img', 'ffhq/69707.jpg')]), OrderedDict([('img', 'ffhq/69713.jpg')]), OrderedDict([('img', 'ffhq/69908.jpg')]), OrderedDict([('img', 'ffhq/69920.jpg')]), OrderedDict([('img', 'ffhq/69934.jpg')]), OrderedDict([('img', 'ffhq/69505.jpg')]), OrderedDict([('img', 'ffhq/69511.jpg')]), OrderedDict([('img', 'ffhq/69539.jpg')]), OrderedDict([('img', 'ffhq/69471.jpg')]), OrderedDict([('img', 'ffhq/69465.jpg')]), OrderedDict([('img', 'ffhq/69459.jpg')]), OrderedDict([('img', 'ffhq/69673.jpg')]), OrderedDict([('img', 'ffhq/69667.jpg')]), OrderedDict([('img', 'ffhq/69897.jpg')]), OrderedDict([('img', 'ffhq/69883.jpg')]), OrderedDict([('img', 'ffhq/69868.jpg')]), OrderedDict([('img', 'ffhq/69854.jpg')]), OrderedDict([('img', 'ffhq/69840.jpg')]), OrderedDict([('img', 'ffhq/69698.jpg')]), OrderedDict([('img', 'ffhq/69827.jpg')]), OrderedDict([('img', 'ffhq/69833.jpg')]), OrderedDict([('img', 'ffhq/69600.jpg')]), OrderedDict([('img', 'ffhq/69614.jpg')]), OrderedDict([('img', 'ffhq/69628.jpg')]), OrderedDict([('img', 'ffhq/69402.jpg')]), OrderedDict([('img', 'ffhq/69416.jpg')]), OrderedDict([('img', 'ffhq/69589.jpg')]), OrderedDict([('img', 'ffhq/69576.jpg')]), OrderedDict([('img', 'ffhq/69562.jpg')]), OrderedDict([('img', 'ffhq/69953.jpg')]), OrderedDict([('img', 'ffhq/69947.jpg')]), OrderedDict([('img', 'ffhq/69774.jpg')]), OrderedDict([('img', 'ffhq/69760.jpg')]), OrderedDict([('img', 'ffhq/69748.jpg')]), OrderedDict([('img', 'ffhq/69990.jpg')]), OrderedDict([('img', 'ffhq/69984.jpg')]), OrderedDict([('img', 'ffhq/69985.jpg')]), OrderedDict([('img', 'ffhq/69991.jpg')]), OrderedDict([('img', 'ffhq/69749.jpg')]), OrderedDict([('img', 'ffhq/69761.jpg')]), OrderedDict([('img', 'ffhq/69775.jpg')]), OrderedDict([('img', 'ffhq/69946.jpg')]), OrderedDict([('img', 'ffhq/69952.jpg')]), OrderedDict([('img', 'ffhq/69563.jpg')]), OrderedDict([('img', 'ffhq/69577.jpg')]), OrderedDict([('img', 'ffhq/69588.jpg')]), OrderedDict([('img', 'ffhq/69417.jpg')]), OrderedDict([('img', 'ffhq/69403.jpg')]), OrderedDict([('img', 'ffhq/69629.jpg')]), OrderedDict([('img', 'ffhq/69615.jpg')]), OrderedDict([('img', 'ffhq/69601.jpg')]), OrderedDict([('img', 'ffhq/69832.jpg')]), OrderedDict([('img', 'ffhq/69826.jpg')]), OrderedDict([('img', 'ffhq/69818.jpg')]), OrderedDict([('img', 'ffhq/69830.jpg')]), OrderedDict([('img', 'ffhq/69824.jpg')]), OrderedDict([('img', 'ffhq/69617.jpg')]), OrderedDict([('img', 'ffhq/69603.jpg')]), OrderedDict([('img', 'ffhq/69415.jpg')]), OrderedDict([('img', 'ffhq/69401.jpg')]), OrderedDict([('img', 'ffhq/69429.jpg')]), OrderedDict([('img', 'ffhq/69561.jpg')]), OrderedDict([('img', 'ffhq/69575.jpg')]), OrderedDict([('img', 'ffhq/69549.jpg')]), OrderedDict([('img', 'ffhq/69978.jpg')]), OrderedDict([('img', 'ffhq/69944.jpg')]), OrderedDict([('img', 'ffhq/69950.jpg')]), OrderedDict([('img', 'ffhq/69788.jpg')]), OrderedDict([('img', 'ffhq/69763.jpg')]), OrderedDict([('img', 'ffhq/69777.jpg')]), OrderedDict([('img', 'ffhq/69987.jpg')]), OrderedDict([('img', 'ffhq/69993.jpg')]), OrderedDict([('img', 'ffhq/69992.jpg')]), OrderedDict([('img', 'ffhq/69986.jpg')]), OrderedDict([('img', 'ffhq/69776.jpg')]), OrderedDict([('img', 'ffhq/69762.jpg')]), OrderedDict([('img', 'ffhq/69789.jpg')]), OrderedDict([('img', 'ffhq/69951.jpg')]), OrderedDict([('img', 'ffhq/69945.jpg')]), OrderedDict([('img', 'ffhq/69979.jpg')]), OrderedDict([('img', 'ffhq/69548.jpg')]), OrderedDict([('img', 'ffhq/69574.jpg')]), OrderedDict([('img', 'ffhq/69560.jpg')]), OrderedDict([('img', 'ffhq/69428.jpg')]), OrderedDict([('img', 'ffhq/69400.jpg')]), OrderedDict([('img', 'ffhq/69414.jpg')]), OrderedDict([('img', 'ffhq/69602.jpg')]), OrderedDict([('img', 'ffhq/69616.jpg')]), OrderedDict([('img', 'ffhq/69825.jpg')]), OrderedDict([('img', 'ffhq/69831.jpg')]), OrderedDict([('img', 'ffhq/69819.jpg')]), OrderedDict([('img', 'ffhq/69835.jpg')]), OrderedDict([('img', 'ffhq/69821.jpg')]), OrderedDict([('img', 'ffhq/69809.jpg')]), OrderedDict([('img', 'ffhq/69612.jpg')]), OrderedDict([('img', 'ffhq/69606.jpg')]), OrderedDict([('img', 'ffhq/69438.jpg')]), OrderedDict([('img', 'ffhq/69410.jpg')]), OrderedDict([('img', 'ffhq/69404.jpg')]), OrderedDict([('img', 'ffhq/69558.jpg')]), OrderedDict([('img', 'ffhq/69564.jpg')]), OrderedDict([('img', 'ffhq/69570.jpg')]), OrderedDict([('img', 'ffhq/69941.jpg')]), OrderedDict([('img', 'ffhq/69799.jpg')]), OrderedDict([('img', 'ffhq/69955.jpg')]), OrderedDict([('img', 'ffhq/69969.jpg')]), OrderedDict([('img', 'ffhq/69982.jpg')]), OrderedDict([('img', 'ffhq/69996.jpg')]), OrderedDict([('img', 'ffhq/69766.jpg')]), OrderedDict([('img', 'ffhq/69772.jpg')]), OrderedDict([('img', 'ffhq/69773.jpg')]), OrderedDict([('img', 'ffhq/69767.jpg')]), OrderedDict([('img', 'ffhq/69997.jpg')]), OrderedDict([('img', 'ffhq/69983.jpg')]), OrderedDict([('img', 'ffhq/69968.jpg')]), OrderedDict([('img', 'ffhq/69954.jpg')]), OrderedDict([('img', 'ffhq/69798.jpg')]), OrderedDict([('img', 'ffhq/69940.jpg')]), OrderedDict([('img', 'ffhq/69571.jpg')]), OrderedDict([('img', 'ffhq/69565.jpg')]), OrderedDict([('img', 'ffhq/69559.jpg')]), OrderedDict([('img', 'ffhq/69405.jpg')]), OrderedDict([('img', 'ffhq/69411.jpg')]), OrderedDict([('img', 'ffhq/69439.jpg')]), OrderedDict([('img', 'ffhq/69607.jpg')]), OrderedDict([('img', 'ffhq/69613.jpg')]), OrderedDict([('img', 'ffhq/69808.jpg')]), OrderedDict([('img', 'ffhq/69820.jpg')]), OrderedDict([('img', 'ffhq/69834.jpg')]), OrderedDict([('img', 'ffhq/69822.jpg')]), OrderedDict([('img', 'ffhq/69836.jpg')]), OrderedDict([('img', 'ffhq/69639.jpg')]), OrderedDict([('img', 'ffhq/69605.jpg')]), OrderedDict([('img', 'ffhq/69611.jpg')]), OrderedDict([('img', 'ffhq/69407.jpg')]), OrderedDict([('img', 'ffhq/69413.jpg')]), OrderedDict([('img', 'ffhq/69598.jpg')]), OrderedDict([('img', 'ffhq/69573.jpg')]), OrderedDict([('img', 'ffhq/69567.jpg')]), OrderedDict([('img', 'ffhq/69956.jpg')]), OrderedDict([('img', 'ffhq/69942.jpg')]), OrderedDict([('img', 'ffhq/69995.jpg')]), OrderedDict([('img', 'ffhq/69759.jpg')]), OrderedDict([('img', 'ffhq/69981.jpg')]), OrderedDict([('img', 'ffhq/69771.jpg')]), OrderedDict([('img', 'ffhq/69765.jpg')]), OrderedDict([('img', 'ffhq/69764.jpg')]), OrderedDict([('img', 'ffhq/69770.jpg')]), OrderedDict([('img', 'ffhq/69980.jpg')]), OrderedDict([('img', 'ffhq/69758.jpg')]), OrderedDict([('img', 'ffhq/69994.jpg')]), OrderedDict([('img', 'ffhq/69943.jpg')]), OrderedDict([('img', 'ffhq/69957.jpg')]), OrderedDict([('img', 'ffhq/69566.jpg')]), OrderedDict([('img', 'ffhq/69572.jpg')]), OrderedDict([('img', 'ffhq/69599.jpg')]), OrderedDict([('img', 'ffhq/69412.jpg')]), OrderedDict([('img', 'ffhq/69406.jpg')]), OrderedDict([('img', 'ffhq/69610.jpg')]), OrderedDict([('img', 'ffhq/69604.jpg')]), OrderedDict([('img', 'ffhq/69638.jpg')]), OrderedDict([('img', 'ffhq/69837.jpg')]), OrderedDict([('img', 'ffhq/69823.jpg')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="file.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="50" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="im"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="gn"/>
+  </Flow>
+</PsychoPy2experiment>
